@@ -1,0 +1,142 @@
+body {
+    direction: ltr;
+}
+
+th {
+    text-align: center;
+
+    color: lightslategray;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#thc {
+    width: fit-content;
+}
+
+#thc2 {
+    width: 20%;
+}
+
+tr:nth-child(even) {
+    background-color:greenyellow;
+    color: rgb(1, 65, 61);
+    font-size: smaller;
+    text-align: left;
+    margin: 1% 10% 1% 10%;
+
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(203, 247, 244);
+    color: rgb(1, 65, 61);
+    font-size: smaller;
+    text-align: left;
+    margin: 1% 10% 1% 10%;
+
+}
+
+tr:hover {
+    background-color: lightseagreen;
+    color: white;
+    padding: 1px;
+    font-size: medium;
+}
+
+table {
+
+    box-shadow: 0px 0px 20px darkgray;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: normal;
+    font-size: medium;
+    margin: 1% 10% 1% 10%;
+    padding: 1%;
+}
+
+td {
+    text-align: left;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1;
+    font-family: vazir;
+
+    padding: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.submit {
+    background-color: lightgrey;
+    color: black;
+    border-style: none;
+    font-size: small;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: darkcyan;
+    color: white;
+    cursor: pointer;
+}
+
+.my {
+    border-style: none;
+    background-color: whitesmoke;
+    color: darkgreen;
+    text-decoration: darkgreen;
+    width: 100%;
+}
+
+footer {
+
+    font-family: vazir;
+    background-color: #8794e7;
+    color: whitesmoke;
+    margin: 1% 10% 1% 10%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: small;
+}
+
+header {
+
+    font-family: vazir;
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: 1% 10% 1% 10%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.web {
+    color: blue;
+}
+
+.web:hover {
+    color: greenyellow;
+}
+
+#counter {
+    direction: ltr;
+    align-items: left;
+    color: cyan;
+    background-color: black;
+    font-size: medium;
+    padding: 2px;
+    margin-right: 75%;
+    border-radius: 2px;
+}
+
+* {
+    font-family: vazir;
+}
